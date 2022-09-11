@@ -12,6 +12,8 @@ import { EmployeeComponent } from './model-components/employee/employee.componen
 import { StudentComponent } from './model-componets/student/student.component';
 import { ExamComponent } from './model-components/exam/exam.component';
 import { TrialComponent } from './model-components/trial/trial.component';
+import { TestComponent } from './test/test.component';
+import { VehicleComponent } from './model-components/vehicle/vehicle.component';
 
 @NgModule({
   imports: [
@@ -31,6 +33,8 @@ import { TrialComponent } from './model-components/trial/trial.component';
     StudentComponent,
     ExamComponent,
     TrialComponent,
+    TestComponent,
+    VehicleComponent,
 
   ],
   providers: [],

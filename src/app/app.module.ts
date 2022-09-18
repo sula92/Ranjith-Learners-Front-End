@@ -14,6 +14,7 @@ import { ExamComponent } from './model-components/exam/exam.component';
 import { TrialComponent } from './model-components/trial/trial.component';
 import { TestComponent } from './test/test.component';
 import { VehicleComponent } from './model-components/vehicle/vehicle.component';
+import { ReportsComponent } from './model-components/reports/reports.component';
 
 @NgModule({
   imports: [
@@ -35,6 +36,7 @@ import { VehicleComponent } from './model-components/vehicle/vehicle.component';
     TrialComponent,
     TestComponent,
     VehicleComponent,
+    ReportsComponent,
 
   ],
   providers: [],

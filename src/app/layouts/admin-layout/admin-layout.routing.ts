@@ -13,6 +13,8 @@ import { EmployeeComponent } from '../../model-components/employee/employee.comp
 import { StudentComponent } from '../../model-components/student/student.component';
 import { ExamComponent } from '../../model-components/exam/exam.component';
 import { TrialComponent } from '../../model-components/trial/trial.component';
+import { VehicleComponent } from '../../model-components/vehicle/vehicle.component';
+import { ReportsComponent } from '../../model-components/reports/reports.component';
 
 export const AdminLayoutRoutes: Routes = [
     // {
@@ -70,4 +72,6 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'student',         component: StudentComponent },
     { path: 'exam',         component: ExamComponent },
     { path: 'trial',         component: TrialComponent },
+    { path: 'vehicle',         component: VehicleComponent },
+    { path: 'reports',         component: ReportsComponent },
 ];

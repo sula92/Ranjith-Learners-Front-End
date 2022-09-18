@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FooterComponent } from '../../components/footer/footer.component';
 
 @Component({
   selector: 'branch',
@@ -7,7 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BranchComponent implements OnInit {
 
-  constructor() { }
+ 
+  title:string;
+
+  constructor() { 
+   
+   
+  }
 
   ngOnInit(): void {
   }

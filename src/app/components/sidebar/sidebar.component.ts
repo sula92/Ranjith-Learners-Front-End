@@ -15,12 +15,14 @@ export const ROUTES: RouteInfo[] = [
     { path: '/student', title: 'Students',  icon:'location_on', class: '' },
     { path: '/exam', title: 'Exams',  icon:'location_on', class: '' },
     { path: '/trial', title: 'Trials',  icon:'location_on', class: '' },
+    { path: '/vehicle', title: 'Vehicles',  icon:'location_on', class: '' },
+    { path: '/reports', title: 'Reports',  icon:'location_on', class: '' },
     { path: '/table-list', title: 'Table List',  icon:'content_paste', class: '' },
     { path: '/typography', title: 'Typography',  icon:'library_books', class: '' },
     { path: '/icons', title: 'Icons',  icon:'bubble_chart', class: '' },
     { path: '/maps', title: 'Maps',  icon:'location_on', class: '' },
     { path: '/notifications', title: 'Notifications',  icon:'notifications', class: '' },
-    { path: '/upgrade', title: 'Upgrade to PRO',  icon:'unarchive', class: 'active-pro' },
+    //{ path: '/upgrade', title: 'Upgrade to PRO',  icon:'unarchive', class: 'active-pro' },
 ];
 
 @Component({
